@@ -1,0 +1,34 @@
+.Countries_Card{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Countries_Card:hover{
+  background-color: #dbdbdb;
+}
+
+.Countries_Top_Row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.Hide_Countries_Currencies_Container{
+  display: None;
+}
+
+.Show_Countries_Currencies_Container{
+  display: block;
+}
+
+.Countries_Currencies_Row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
